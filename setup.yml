@@ -10,6 +10,16 @@
       msg: "Hello Server! nochmal" 
   
   - name: neue Datei anlegen
-  file:
-    path: /tmp/neue_datei
-    state: touch
+    file:
+      path: /tmp/neue_datei
+      state: touch
+      
+  - name: neuen Ordner anlegen
+    file:
+      path: /tmp/neuer_ordner
+      state: directory
+      
+  - name: neuen Ordner anlegen
+    file:
+      path: /tmp/neuer_ordner
+      state: directory
