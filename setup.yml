@@ -23,3 +23,7 @@
     file:
       path: /tmp/neuer_ordner
       state: directory
+      
+  - name: Variable ausgeben
+    debug:
+      msg: "{{ mein_cooler_text }}" 
