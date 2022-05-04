@@ -4,26 +4,7 @@
   remote_user: root
 
   tasks:
-
-  - name: Hello Server
-    debug:
-      msg: "Hello Server! nochmal" 
-  
-  - name: neue Datei anlegen
-    file:
-      path: /tmp/neue_datei
-      state: touch
-      
-  - name: neuen Ordner anlegen
-    file:
-      path: /tmp/neuer_ordner
-      state: directory
-      
-  - name: neuen Ordner anlegen
-    file:
-      path: /tmp/neuer_ordner
-      state: directory
       
   - name: Variable ausgeben
     debug:
-      msg: "{{ mein_cooler_text }}" 
+      msg: "{{ mein_uncooler_text }}" 
