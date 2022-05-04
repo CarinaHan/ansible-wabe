@@ -8,7 +8,7 @@
   - name: Variable ausgeben
     debug:
       msg: "{{ item }}"
-      loop:
+    loop:
        - apple
        - banana
        - pear
