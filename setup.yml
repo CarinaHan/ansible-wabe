@@ -7,4 +7,4 @@
       
   - name: Variable ausgeben
     debug:
-      msg: "{{ mein_uncooler_text }}" 
+      msg: "{{ mein_cooler_text }}" 
