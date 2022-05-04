@@ -8,4 +8,8 @@
   - name: Hello Server
     debug:
       msg: "Hello Server! nochmal" 
-      
+  
+  - name: neue Datei anlegen
+  file:
+    path: /tmp/neue_datei
+    state: touch
